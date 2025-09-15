@@ -1,9 +1,6 @@
-<h1>Patients</h1>
+<h1>Authors</h1>
 <ul>
   <% @authors.each do |author| %>
-    <!--
-    <li>Fake <%= author['name'] %></li>
-    -->
     <li><%= author['name'] %></li>
   <% end %>
 </ul>
@@ -11,5 +8,5 @@
 
 <h1>Developer</h1>
 <ul>
-    <li>Martin Nguyen</li>
+    <li><%= @developer %></li>
 </ul>
